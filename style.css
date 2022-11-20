@@ -66,6 +66,20 @@ h2 {
     border-bottom: solid .05rem rgba(255, 255, 255, 0.3);
 }
 
+label {
+    display: grid;
+    grid-template-columns: 42.5% 15% 42.5%;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.special {
+    border-bottom: solid .1rem rgba(255, 255, 255, 0.413);
+    margin: auto 2rem auto 2rem;
+    justify-content: center;
+}
+
 .link-logos {
     margin: auto 0rem;
 }
@@ -226,6 +240,19 @@ form {
     form {
         margin-top: 5rem;
     }
+
+    label {
+        grid-template-columns: 40% 20% 40%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .special {
+        border-bottom: solid .1rem rgba(255, 255, 255, 0.413);
+        margin: auto 2rem auto 2rem;
+        justify-content: center;
+    }
+
 
     #largeTextarea {
         display: none;

@@ -23,6 +23,6 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.8.0"
   }
 }

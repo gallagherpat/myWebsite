@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+    <script defer type="module">
+        const firebaseConfig = {
+            apiKey: "AIzaSyAt2J2TIITuSLixVLmeNVfl24cTQkO7M4E",
+            authDomain: "patrickgallagherwebsite.firebaseapp.com",
+            projectId: "patrickgallagherwebsite",
+            storageBucket: "patrickgallagherwebsite.appspot.com",
+            messagingSenderId: "613340694086",
+            appId: "1:613340694086:web:178d92ff8ac8f8ebe66c47",
+            measurementId: "G-K6D7T7N18B"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+
+    <script defer src="script.js" type="module"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <div><img class="logo" src="images/PlaceholderLogo.png" alt="">
+                <span class="headertext">Header</span>
+            </div>
+            <div class="nav">
+                <button>Home</button>
+                <button>About</button>
+                <button>Logs</button>
+                <button>Contact</button>
+            </div>
+        </div>
+        <div class="image"><img src="images/Mass.jpg" alt="" srcset=""></div>
+        <div class="special1"></div>
+        <div class="divider">Follow Me</div>
+        <div class="special2"></div>
+
+        <div class="card-container">
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                        <div class="container">
+                            <h2 class="card-header">@gallagherpat</h2>
+                            <p class="card-text">Check out my rumble page for videos on development and upcoming games
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                        <div class="container">
+                            <h2>@gallagherpat</h2>
+                            <p>Check out my rumble page for videos on development and upcoming games</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                        <div class="container">
+                            <h2>@gallagherpat</h2>
+                            <p>Check out my rumble page for videos on development and upcoming games</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                        <div class="container">
+                            <h2>@gallagherpat</h2>
+                            <p>Check out my rumble page for videos on development and upcoming games</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-11163
+11164
 78C:\myWebsite\myWebsite\node_modules\type-fest\source\require-at-least-one.d.ts133134420364137239 0
 48C:\myWebsite\myWebsite\node_modules\browserslist133134420358565991 1
 53C:\myWebsite\myWebsite\node_modules\yaml\package.json133134420366737825 0
@@ -8,7 +8,7 @@
 53C:\myWebsite\myWebsite\node_modules\lodash-es\flow.js133134420377148748 0
 62C:\myWebsite\myWebsite\node_modules\text-decoding\src\utils.js133134420364037224 0
 81C:\myWebsite\myWebsite\node_modules\lru-memoizer\node_modules\yallist\iterator.js133134420349881382 0
-38C:\myWebsite\myWebsite\experience.html133140729513424410 0
+38C:\myWebsite\myWebsite\experience.html133140731793823535 0
 78C:\myWebsite\myWebsite\node_modules\@babel\helper-validator-identifier\scripts133134420355954836 1
 68C:\myWebsite\myWebsite\node_modules\type-fest\source\promisable.d.ts133134420363747156 0
 52C:\myWebsite\myWebsite\node_modules\lodash\reject.js133134420381617223 0
@@ -45,7 +45,7 @@
 81C:\myWebsite\myWebsite\node_modules\yargs\build\lib\typings\yargs-parser-types.js133134420362166799 0
 50C:\myWebsite\myWebsite\node_modules\uuid\README.md133134420369078352 0
 68C:\myWebsite\myWebsite\node_modules\proto3-json-serializer\README.md133134420363847175 0
-27C:\myWebsite\myWebsite\dist133140729596433099 1
+27C:\myWebsite\myWebsite\dist133140731908905799 1
 74C:\myWebsite\myWebsite\node_modules\terser\lib\utils\first_in_statement.js133134420364477322 0
 73C:\myWebsite\myWebsite\node_modules\.bin\node-gyp-build-optional-packages133134420383600595 0
 59C:\myWebsite\myWebsite\node_modules\protobufjs\src\parse.js133134420363517098 0
@@ -4671,7 +4671,7 @@
 84C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\features\keyboardevent-code.js133134420379250443 0
 66C:\myWebsite\myWebsite\node_modules\node-addon-api\tools\README.md133134420361316617 0
 60C:\myWebsite\myWebsite\node_modules\msgpackr-extract\LICENSE133134420346631143 0
-43C:\myWebsite\myWebsite\dist\experience.html133140729596383084 0
+43C:\myWebsite\myWebsite\dist\experience.html133140731908895802 0
 51C:\myWebsite\myWebsite\node_modules\lodash\_root.js133134420375538387 0
 65C:\myWebsite\myWebsite\node_modules\msgpackr-extract\package.json133134420351461742 0
 62C:\myWebsite\myWebsite\node_modules\msgpackr-extract\README.md133134420351921842 0
@@ -10004,7 +10004,7 @@
 82C:\myWebsite\myWebsite\node_modules\@parcel\fs-search\fs-search.linux-x64-gnu.node133134420365007439 0
 83C:\myWebsite\myWebsite\node_modules\@parcel\fs-search\fs-search.linux-x64-musl.node133134420365737599 0
 83C:\myWebsite\myWebsite\node_modules\@parcel\fs-search\fs-search.win32-x64-msvc.node133134420366267727 0
-53C:\myWebsite\myWebsite\.firebase\hosting.ZGlzdA.cache133138157936392104 0
+53C:\myWebsite\myWebsite\.firebase\hosting.ZGlzdA.cache133140729854659572 0
 57C:\myWebsite\myWebsite\node_modules\@parcel\fs\index.d.ts133134420360576440 0
 59C:\myWebsite\myWebsite\node_modules\@parcel\fs\package.json133134420359286159 0
 58C:\myWebsite\myWebsite\node_modules\@parcel\fs\src\find.js133134420349851366 0
@@ -11153,6 +11153,7 @@
 41C:\myWebsite\myWebsite\images\youtube.png133133924980744182 0
 36C:\myWebsite\myWebsite\dist\404.html133133924980587136 0
 45C:\myWebsite\myWebsite\dist\contact-info.html133140729596383084 0
+57C:\myWebsite\myWebsite\dist\DevLog11-27-2022.791d6a0f.jpg133140731903425700 0
 46C:\myWebsite\myWebsite\dist\index.05d578a4.css133140729596383084 0
 50C:\myWebsite\myWebsite\dist\index.05d578a4.css.map133140729596423099 0
 49C:\myWebsite\myWebsite\dist\index.06bc2ed7.js.map133140729596423099 0

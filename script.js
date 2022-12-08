@@ -5,35 +5,60 @@
 
 let menuOpen = false;
 
+let body = document.querySelector('body');
 
 let hamburger = document.querySelector('.svg-icon');
 
 const openMenu = function () {
     if (menuOpen == false) {
-        document.querySelector('#nav').style = 'Display: Block;';
+        displayButtons();
         menuOpen = true;
     } else if (menuOpen == true) {
-        document.querySelector('#nav').style = 'Display: None;'
+        hideButtons();
         menuOpen = false;
     }
 }
 
-hamburger.addEventListener('click', openMenu);
-
-
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-    apiKey: "AIzaSyAt2J2TIITuSLixVLmeNVfl24cTQkO7M4E",
-    authDomain: "patrickgallagherwebsite.firebaseapp.com",
-    projectId: "patrickgallagherwebsite",
-    storageBucket: "patrickgallagherwebsite.appspot.com",
-    messagingSenderId: "613340694086",
-    appId: "1:613340694086:web:178d92ff8ac8f8ebe66c47",
-    measurementId: "G-K6D7T7N18B"
-};
-
-let body = document.querySelector('body');
-
+const displayButtons = function () {
+    for (let i = 0; i < 4; i++) {
+        switch (i) {
+            case 0:
+                document.querySelectorAll('button')[i].style = 'display: block;';
+                break;
+            case 1:
+                document.querySelectorAll('button')[i].style = 'display: block;';
+                break;
+            case 2:
+                document.querySelectorAll('button')[i].style = 'display: block;';
+                break;
+            case 3:
+                document.querySelectorAll('button')[i].style = 'display: block;';
+                break;
+            default:
+                console.log('shits wack');
+        }
+    }
+}
+const hideButtons = function () {
+    for (let i = 0; i < 4; i++) {
+        switch (i) {
+            case 0:
+                document.querySelectorAll('button')[i].style = 'display: none;';
+                break;
+            case 1:
+                document.querySelectorAll('button')[i].style = 'display: none';
+                break;
+            case 2:
+                document.querySelectorAll('button')[i].style = 'display: none';
+                break;
+            case 3:
+                document.querySelectorAll('button')[i].style = 'display: none';
+                break;
+            default:
+                console.log('shits wack');
+        }
+    }
+}
 
 
 const navigationHandler = function (id) {
@@ -68,22 +93,22 @@ const navLoader = function () {
         switch (i) {
             case 0:
                 name = 'Home';
-                html = `<button id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
                 break;
             case 1:
                 name = 'About';
-                html = `<button id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
                 break;
             case 2:
                 name = 'Logs';
-                html = `<button id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
                 break;
             case 3:
                 name = 'Contact';
-                html = `<button id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
                 break;
             default:
@@ -94,6 +119,23 @@ const navLoader = function () {
     }
 
 }
+
+
+hamburger.addEventListener('click', openMenu);
+
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyAt2J2TIITuSLixVLmeNVfl24cTQkO7M4E",
+    authDomain: "patrickgallagherwebsite.firebaseapp.com",
+    projectId: "patrickgallagherwebsite",
+    storageBucket: "patrickgallagherwebsite.appspot.com",
+    messagingSenderId: "613340694086",
+    appId: "1:613340694086:web:178d92ff8ac8f8ebe66c47",
+    measurementId: "G-K6D7T7N18B"
+};
+
+
 
 
 body.addEventListener('load', navLoader());

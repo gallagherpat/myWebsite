@@ -159,9 +159,18 @@ button:hover {
         grid-template-columns: 3fr 1fr;
     }
 
-    button {
-        display: none;
+    .nav {
+        flex-direction: column;
+
     }
+
+    .svg-icon {
+        position: absolute;
+    }
+
+    button {}
+
+    .navbtn {}
 
     .svg-icon {
         display: block;

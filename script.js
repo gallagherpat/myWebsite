@@ -87,7 +87,7 @@ const navLoader = function () {
     let name;
     let id;
     let html;
-    let navContainer = document.querySelector('.nav');
+    let navContainer = document.querySelector('.navbuttons');
 
     for (let i = 0; i < 4; i++) {
         switch (i) {

@@ -15,7 +15,10 @@ a {
     text-decoration: none;
 }
 
+
+
 button {
+    display: flex;
     font-size: 1rem;
     color: white;
     margin: 0 .2rem;
@@ -159,18 +162,16 @@ button:hover {
         grid-template-columns: 3fr 1fr;
     }
 
-    .nav {
-        flex-direction: column;
-
-    }
-
-    .svg-icon {
+    .navbuttons {
         position: absolute;
+        margin: 1.5rem 0;
     }
 
-    button {}
-
-    .navbtn {}
+    button {
+        text-align: end;
+        position: relative;
+        margin-top: .5rem;
+    }
 
     .svg-icon {
         display: block;

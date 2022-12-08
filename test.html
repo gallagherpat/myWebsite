@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="style2.css">
 
-    <script defer type="module">
+    <!-- <script defer type="module">
         const firebaseConfig = {
             apiKey: "AIzaSyAt2J2TIITuSLixVLmeNVfl24cTQkO7M4E",
             authDomain: "patrickgallagherwebsite.firebaseapp.com",
@@ -23,96 +23,114 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-    </script>
+    </script> -->
 
     <script defer src="script.js" type="module"></script>
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="header">
-            <div><img class="logo" src="images/PlaceholderLogo.png" alt="">
-                <span class="headertext">Header</span>
-            </div>
-            <div class="nav">
-                <button>Home</button>
-                <button>About</button>
-                <button>Logs</button>
-                <button>Contact</button>
-            </div>
+    <div class="header-container">
+        <div class="header-logo">
+            <img class="logo" src="images/PlaceholderLogo.png" alt="">
+            <span class="header-text">Welcome,</span>
         </div>
-        <div class="image"><img src="images/Mass.jpg" alt="" srcset=""></div>
+
+        <div class="nav">
+            <svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M64.28704 864h416a64 64 0 0 1 4.8 127.84L480.28704 992H64.28704a64 64 0 0 1-4.8-127.84L64.28704 864h416H64.28704z m0-416h832a64 64 0 0 1 4.8 127.84L896.28704 576H64.28704a64 64 0 0 1-4.8-127.84L64.28704 448zM480.28704 48h416a64 64 0 0 1 4.8 127.84L896.28704 176H480.28704a64 64 0 0 1-4.8-127.84L480.28704 48z"
+                    fill="#fffff" />
+            </svg>
+        </div>
+    </div>
+
+
+    <div class="image">
+        <img src="images/Mass.jpg" alt="" srcset="">
+    </div>
+
+
+    <div class="special-container">
         <div class="special1"></div>
         <div class="divider">Follow Me</div>
         <div class="special2"></div>
+    </div>
 
-        <div class="card-container">
+
+    <div class="card-container">
+
+        <div class="card" id="card-one">
             <a href="https://gallagherpat.itch.io/">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-image">
-                            <img class="link-logos" src="/images/itch-io.png" alt="">
-                        </div>
-                        <div class="card-text">
-                            <h2 class="card-header">@gallagherpat</h2>
-                            <div class="border"></div>
-                            <p class="card-message">Check out my rumble page for videos on development and upcoming
-                                games
-                            </p>
-                        </div>
+                <div class="card-body">
+                    <div class="card-image">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
                     </div>
-                </div>
-            </a>
-            <a href="https://gallagherpat.itch.io/">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-image">
-                            <img class="link-logos" src="/images/itch-io.png" alt="">
-                        </div>
-                        <div class="card-text">
-                            <h2 class="card-header">@gallagherpat</h2>
-                            <div class="border"></div>
-                            <p class="card-message">Check out my rumble page for videos on development and upcoming
-                                games
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="https://gallagherpat.itch.io/">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-image">
-                            <img class="link-logos" src="/images/itch-io.png" alt="">
-                        </div>
-                        <div class="card-text">
-                            <h2 class="card-header">@gallagherpat</h2>
-                            <div class="border"></div>
-                            <p class="card-message">Check out my rumble page for videos on development and upcoming
-                                games
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="https://gallagherpat.itch.io/">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-image">
-                            <img class="link-logos" src="/images/itch-io.png" alt="">
-                        </div>
-                        <div class="card-text">
-                            <h2 class="card-header">@gallagherpat</h2>
-                            <div class="border"></div>
-                            <p class="card-message">Check out my rumble page for videos on development and upcoming
-                                games
-                            </p>
-                        </div>
+                    <div class="card-text">
+                        <h2 class="card-header">@gallagherpat</h2>
+                        <div class="border"></div>
+                        <p class="card-message">Check out my rumble page for videos on development and upcoming
+                            games
+                        </p>
                     </div>
                 </div>
             </a>
         </div>
+
+        <div class="card" id="card-two">
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card-body">
+                    <div class="card-image">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2 class="card-header">@gallagherpat</h2>
+                        <div class="border"></div>
+                        <p class="card-message">Check out my rumble page for videos on development and upcoming
+                            games
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="card" id="card-one">
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card-body">
+                    <div class="card-image">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2 class="card-header">@gallagherpat</h2>
+                        <div class="border"></div>
+                        <p class="card-message">Check out my rumble page for videos on development and upcoming
+                            games
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="card" id="card-two">
+            <a href="https://gallagherpat.itch.io/">
+                <div class="card-body">
+                    <div class="card-image">
+                        <img class="link-logos" src="/images/itch-io.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2 class="card-header">@gallagherpat</h2>
+                        <div class="border"></div>
+                        <p class="card-message">Check out my rumble page for videos on development and upcoming
+                            games
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
     </div>
+
     <footer>
         Place holder footer
     </footer>

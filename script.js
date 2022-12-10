@@ -9,36 +9,21 @@ let body = document.querySelector('body');
 
 let hamburger = document.querySelector('.svg-icon');
 
+let navBtns = document.querySelector('.navbuttons');
+
 const openMenu = function () {
     if (menuOpen == false) {
-        displayButtons();
+        navBtns.style = "display: block;";
         menuOpen = true;
     } else if (menuOpen == true) {
-        hideButtons();
+        navBtns.style = "display: none;";
         menuOpen = false;
     }
 }
 
-const displayButtons = function () {
-    for (let i = 0; i < 4; i++) {
-        switch (i) {
-            case 0:
-                document.querySelectorAll('button')[i].style = 'display: block;';
-                break;
-            case 1:
-                document.querySelectorAll('button')[i].style = 'display: block;';
-                break;
-            case 2:
-                document.querySelectorAll('button')[i].style = 'display: block;';
-                break;
-            case 3:
-                document.querySelectorAll('button')[i].style = 'display: block;';
-                break;
-            default:
-                console.log('shits wack');
-        }
-    }
-}
+hamburger.addEventListener('click', openMenu);
+
+
 const hideButtons = function () {
     for (let i = 0; i < 4; i++) {
         switch (i) {
@@ -88,28 +73,33 @@ const navLoader = function () {
     let id;
     let html;
     let navContainer = document.querySelector('.navbuttons');
+    let otherNavContainer = document.querySelector('#mobile');
 
     for (let i = 0; i < 4; i++) {
         switch (i) {
             case 0:
                 name = 'Home';
-                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
+                otherNavContainer.insertAdjacentHTML('beforeend', html);
                 break;
             case 1:
                 name = 'About';
-                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
+                otherNavContainer.insertAdjacentHTML('beforeend', html);
                 break;
             case 2:
                 name = 'Logs';
-                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
+                otherNavContainer.insertAdjacentHTML('beforeend', html);
                 break;
             case 3:
                 name = 'Contact';
-                html = `<button class="navbtn" id="${id = i}">${name}</button>`;
+                html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
                 navContainer.insertAdjacentHTML('beforeend', html);
+                otherNavContainer.insertAdjacentHTML('beforeend', html);
                 break;
             default:
                 console.log(`switch broke at ${i}`);
@@ -117,11 +107,10 @@ const navLoader = function () {
         let navBtn = document.querySelectorAll('button');
         navBtn[i].addEventListener('click', navigationHandler);
     }
-
 }
 
 
-hamburger.addEventListener('click', openMenu);
+
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional

@@ -26,6 +26,7 @@ svg {
 }
 
 .navButtons {
+    display: block;
     margin-right: 2rem;
 }
 
@@ -61,8 +62,14 @@ h2 {
     text-align: justify;
 }
 
+.aboutMeHeader {
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
 .border {
-    margin: .1rem 4rem .3rem 1rem;
+    padding: 0 6em;
+    margin: 1em 0;
     border-bottom: solid .05rem rgba(255, 255, 255, 0.3);
 }
 
@@ -206,6 +213,17 @@ li {
 }
 
 
+.aboutMeContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.aboutMe {
+    grid-column: 2;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
 @media screen and (max-width: 1250px) {
 
     .grid-container {
@@ -288,6 +306,10 @@ li {
     }
 
     #smallTextarea {
+        display: block;
+    }
+
+    .aboutMeContainer {
         display: block;
     }
 }

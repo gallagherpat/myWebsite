@@ -35,35 +35,27 @@
     </script>
 </head>
 
-<body style="background-image: url(images/Mass.jpg);">
-    <header>
-        <nav>
-            <div class=" header-logo">
-                <div class="header" style="margin-left: 1rem;">
-                    <!-- <img id="logo" style="height: auto; width: 3rem;" src=" images/PlaceholderLogo.png"
-                        alt="Place holder logo"> -->
-                    <h1>Hello, welcome.</h1>
-                </div>
+<body>
+    <div class="header-container">
+        <div class="header-logo">
+            <img class="logo" src="images/PlaceholderLogo.png" alt="">
+            <span class="header-text">Welcome,</span>
+        </div>
 
-                <div class="navigation">
-                    <svg class="svg-icon"
-                        style="width: 2rem;height: 2rem;vertical-align: middle;fill: currentColor;overflow: hidden;"
-                        viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M64.28704 864h416a64 64 0 0 1 4.8 127.84L480.28704 992H64.28704a64 64 0 0 1-4.8-127.84L64.28704 864h416H64.28704z m0-416h832a64 64 0 0 1 4.8 127.84L896.28704 576H64.28704a64 64 0 0 1-4.8-127.84L64.28704 448zM480.28704 48h416a64 64 0 0 1 4.8 127.84L896.28704 176H480.28704a64 64 0 0 1-4.8-127.84L480.28704 48z"
-                            fill="#fffff" />
-                    </svg>
-                    <div class="navButtons" id="nav">
-                        <button class="navbar-button"><a href="index.html">Home</a></button>
-                        <button class="navbar-button"><a href="about.html">About</a></button>
-                        <button class="navbar-button"><a href="games.html">Games</a></button>
-                        <button class="navbar-button"><a href="logs.html">Logs</a></button>
-                        <button class="navbar-button"><a href="contact.html">Contact</a></button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+        <div class="nav">
+            <svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M64.28704 864h416a64 64 0 0 1 4.8 127.84L480.28704 992H64.28704a64 64 0 0 1-4.8-127.84L64.28704 864h416H64.28704z m0-416h832a64 64 0 0 1 4.8 127.84L896.28704 576H64.28704a64 64 0 0 1-4.8-127.84L64.28704 448zM480.28704 48h416a64 64 0 0 1 4.8 127.84L896.28704 176H480.28704a64 64 0 0 1-4.8-127.84L480.28704 48z"
+                    fill="#fffff" />
+            </svg>
+            <div class="navbuttons" id="navBtn"></div>
+        </div>
+    </div>
+
+    <div class="buttonContainer" style="display: flex;">
+        <div class="buttonBox" id="mobile">
+        </div>
+    </div>
 
 
     <form action="mailto:gallagherpatrick21@gmail.com" method="post" enctype="text/plain">
@@ -79,8 +71,6 @@
             <input class="contactMeButton" type="reset" value="Reset">
         </div>
     </form>
-
-    <section style="display: inline-flexbox; height: 53vh; max-height:fit-content;"></section>
 </body>
 
 </html>

@@ -9,108 +9,108 @@ let body = document.querySelector('body');
 
 let hamburger = document.querySelector('.svg-icon');
 
-let navBtns = document.querySelector('.navButtons');
+let navBtns = document.querySelector('.buttonContainer');
 
 const openMenu = function () {
     if (menuOpen == false) {
-        navBtns.style = "display: block;";
+        console.log('click');
+        navBtns.style = "display: flex;";
         menuOpen = true;
     } else if (menuOpen == true) {
+        console.log('click');
         navBtns.style = "display: none;";
         menuOpen = false;
     }
 }
 
+const navigationHandler = function (id) {
+    id = Number(this.id);
+    switch (id) {
+        case 0:
+            window.location.href = 'index.html';
+            break;
+        case 1:
+            window.location.href = 'about.html';
+            break;
+        case 2:
+            window.location.href = 'games.html';
+            break;
+        case 3:
+            window.location.href = 'logs.html'
+            break;
+        case 4:
+            window.location.href = 'contact.html'
+            break;
+        default:
+            console.log('nav handler broke')
+    }
+    console.log(id);
+}
+
+
+const navLoader = function () {
+    console.log('loaded');
+    let name;
+    let html;
+    let navContainer = document.querySelector('.navbuttons');
+
+    for (let i = 0; i < 5; i++) {
+
+        switch (i) {
+            case 0:
+                name = 'Home';
+                html = `<button class="navbtn" id="${i}"><span>${name}<span></button>`;
+                navContainer.insertAdjacentHTML('beforeend', html);
+                break;
+            case 1:
+                name = 'About';
+                html = `<button class="navbtn" id="${i}"><span>${name}<span></button>`;
+                navContainer.insertAdjacentHTML('beforeend', html);
+                break;
+            case 2:
+                name = 'Games';
+                html = `<button class="navbtn" id="${i}"><span>${name}<span></button>`;
+                navContainer.insertAdjacentHTML('beforeend', html);
+                break;
+            case 3:
+                name = 'Logs';
+                html = `<button class="navbtn" id="${i}"><span>${name}<span></button>`;
+                navContainer.insertAdjacentHTML('beforeend', html);
+                break;
+            case 4:
+                name = 'Contact';
+                html = `<button class="navbtn" id="${i}"><span>${name}<span></button>`;
+                navContainer.insertAdjacentHTML('beforeend', html);
+                break;
+            default:
+                console.log(`switch broke at ${i}`);
+        }
+        let navBtn = document.querySelectorAll('.navbtn');
+        navBtn[i].addEventListener('click', navigationHandler);
+    }
+}
+
+const resize = function () {
+    console.log(body.offsetWidth);
+    let fragment = document.createDocumentFragment();
+    if (body.offsetWidth > 1200) {
+        for (let i = 0; i < 5; i++) {
+            let piece = fragment.appendChild(document.getElementById(i));
+            document.getElementById('navBtn').appendChild(piece);
+        }
+    } else if (body.offsetWidth < 1200) {
+        for (let i = 0; i < 5; i++) {
+            let piece = fragment.appendChild(document.getElementById(i));
+            document.getElementById('mobile').appendChild(piece);
+        }
+    }
+}
+
+
 hamburger.addEventListener('click', openMenu);
-
-
-// const hideButtons = function () {
-//     for (let i = 0; i < 4; i++) {
-//         switch (i) {
-//             case 0:
-//                 document.querySelectorAll('button')[i].style = 'display: none;';
-//                 break;
-//             case 1:
-//                 document.querySelectorAll('button')[i].style = 'display: none';
-//                 break;
-//             case 2:
-//                 document.querySelectorAll('button')[i].style = 'display: none';
-//                 break;
-//             case 3:
-//                 document.querySelectorAll('button')[i].style = 'display: none';
-//                 break;
-//             default:
-//                 console.log('shits wack');
-//         }
-//     }
-// }
-
-
-// const navigationHandler = function (id) {
-//     id = Number(this.id);
-//     switch (id) {
-//         case 0:
-//             window.location.href = 'test.html';
-//             break;
-//         case 1:
-//             window.location.href = 'about.html';
-//             break;
-//         case 2:
-//             window.location.href = 'logs.html'
-//             break;
-//         case 3:
-//             window.location.href = 'contact.html'
-//             break;
-//         default:
-//             console.log('nav handler broke')
-//     }
-//     console.log(id);
-// }
-
-
-// const navLoader = function () {
-//     let name;
-//     let id;
-//     let html;
-//     let navContainer = document.querySelector('.navbuttons');
-//     let otherNavContainer = document.querySelector('#mobile');
-
-//     for (let i = 0; i < 4; i++) {
-//         switch (i) {
-//             case 0:
-//                 name = 'Home';
-//                 html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
-//                 navContainer.insertAdjacentHTML('beforeend', html);
-//                 otherNavContainer.insertAdjacentHTML('beforeend', html);
-//                 break;
-//             case 1:
-//                 name = 'About';
-//                 html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
-//                 navContainer.insertAdjacentHTML('beforeend', html);
-//                 otherNavContainer.insertAdjacentHTML('beforeend', html);
-//                 break;
-//             case 2:
-//                 name = 'Logs';
-//                 html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
-//                 navContainer.insertAdjacentHTML('beforeend', html);
-//                 otherNavContainer.insertAdjacentHTML('beforeend', html);
-//                 break;
-//             case 3:
-//                 name = 'Contact';
-//                 html = `<button class="navbtn" id="${id = i}"><span>${name}<span></button>`;
-//                 navContainer.insertAdjacentHTML('beforeend', html);
-//                 otherNavContainer.insertAdjacentHTML('beforeend', html);
-//                 break;
-//             default:
-//                 console.log(`switch broke at ${i}`);
-//         }
-//         let navBtn = document.querySelectorAll('button');
-//         navBtn[i].addEventListener('click', navigationHandler);
-//     }
-// }
-
-
-
+body.addEventListener('load', navLoader());
+resize();
+window.addEventListener('resize', resize);
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -124,7 +124,3 @@ const firebaseConfig = {
     measurementId: "G-K6D7T7N18B"
 };
 
-
-
-
-// body.addEventListener('load', navLoader());

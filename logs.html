@@ -34,61 +34,56 @@
     <script defer src="script.js" type="module"></script>
 </head>
 
-<body style="background-image: url(images/Mass.jpg);">
+<body>
+    <div class="header-container">
+        <div class="header-logo">
+            <img class="logo" src="images/PlaceholderLogo.png" alt="">
+            <span class="header-text">Welcome,</span>
+        </div>
 
-    <header>
-        <nav>
-            <div class=" header-logo">
-                <div class="header" style="margin-left: 1rem;">
-                    <!-- <img id="logo" style="height: auto; width: 3rem;" src=" images/PlaceholderLogo.png"
-                        alt="Place holder logo"> -->
-                    <h1>Hello, welcome.</h1>
-                </div>
+        <div class="nav">
+            <svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M64.28704 864h416a64 64 0 0 1 4.8 127.84L480.28704 992H64.28704a64 64 0 0 1-4.8-127.84L64.28704 864h416H64.28704z m0-416h832a64 64 0 0 1 4.8 127.84L896.28704 576H64.28704a64 64 0 0 1-4.8-127.84L64.28704 448zM480.28704 48h416a64 64 0 0 1 4.8 127.84L896.28704 176H480.28704a64 64 0 0 1-4.8-127.84L480.28704 48z"
+                    fill="#fffff" />
+            </svg>
+            <div class="navbuttons" id="navBtn"></div>
+        </div>
+    </div>
 
-                <div class="navigation">
-                    <svg class="svg-icon"
-                        style="width: 2rem;height: 2rem;vertical-align: middle;fill: currentColor;overflow: hidden;"
-                        viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M64.28704 864h416a64 64 0 0 1 4.8 127.84L480.28704 992H64.28704a64 64 0 0 1-4.8-127.84L64.28704 864h416H64.28704z m0-416h832a64 64 0 0 1 4.8 127.84L896.28704 576H64.28704a64 64 0 0 1-4.8-127.84L64.28704 448zM480.28704 48h416a64 64 0 0 1 4.8 127.84L896.28704 176H480.28704a64 64 0 0 1-4.8-127.84L480.28704 48z"
-                            fill="#fffff" />
-                    </svg>
-                    <div class="navButtons" id="nav">
-                        <button class="navbar-button"><a href="index.html">Home</a></button>
-                        <button class="navbar-button"><a href="about.html">About</a></button>
-                        <button class="navbar-button"><a href="games.html">Games</a></button>
-                        <button class="navbar-button"><a href="logs.html">Logs</a></button>
-                        <button class="navbar-button"><a href="contact.html">Contact</a></button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <div class="buttonContainer" style="display: flex;">
+        <div class="buttonBox" id="mobile">
+        </div>
+    </div>
 
 
     <div class="text-container">
         <div class="post">
             <h2>Dev Log 11/27/2022</h2>
             <li>
-                There was an issue with my player character movement controller so I fixed it by updating the rotator so
+                There was an issue with my player character movement controller so I fixed it by updating the
+                rotator so
                 that it
                 doesn’t flip the movement of the input from the player.
             </li>
             <li>
-                I created some basic AI functions for the monster and added a placeholder model so I have something to
+                I created some basic AI functions for the monster and added a placeholder model so I have something
+                to
                 be
                 afraid
                 of as I make the game.
             </li>
             <li>
-                I added a random movement/patrol function that takes the enemy’s current location and then projects a
+                I added a random movement/patrol function that takes the enemy’s current location and then projects
+                a
                 radius
                 that a random location gets chosen. When the monster moves to that location it stays there for a
                 few
                 seconds and then runs through the AI tree.
             </li>
             <li>
-                There is also a basic chase feature that points the monster in the direction of the player and moves to
+                There is also a basic chase feature that points the monster in the direction of the player and moves
+                to
                 them
                 at
                 a faster pace than the patrol.
@@ -101,14 +96,7 @@
         <div class="post-image">
             <img class="devPhoto" src="images/DevLog11-27-2022.jpg" alt="">
         </div>
-
     </div>
-
-
-
-    <section></section>
-
-
 </body>
 
 </html>

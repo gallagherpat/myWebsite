@@ -1,6 +1,6 @@
-11182
+11190
 81C:\myWebsite\myWebsite\node_modules\proto3-json-serializer\build\src\types.js.map133134420361856734 0
-33C:\myWebsite\myWebsite\index.html133153754571306610 0
+33C:\myWebsite\myWebsite\index.html133153768911779339 0
 43C:\myWebsite\myWebsite\node_modules\leaflet133134420372249060 1
 50C:\myWebsite\myWebsite\node_modules\lodash\bind.js133134420376458591 0
 57C:\myWebsite\myWebsite\node_modules\lodash-es\_hasPath.js133134420374638186 0
@@ -22,7 +22,7 @@
 103C:\myWebsite\myWebsite\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\package.json133134420366017664 0
 64C:\myWebsite\myWebsite\node_modules\uglify-js\lib\mozilla-ast.js133134420360746480 0
 70C:\myWebsite\myWebsite\node_modules\buffer-equal-constant-time\test.js133134420350551530 0
-35C:\myWebsite\myWebsite\contact.html133153744612839270 0
+35C:\myWebsite\myWebsite\contact.html133153769264341528 0
 67C:\myWebsite\myWebsite\node_modules\css-tree\lib\syntax\node\CDO.js133134420359306157 0
 57C:\myWebsite\myWebsite\node_modules\lodash-es\parseInt.js133134420379520503 0
 60C:\myWebsite\myWebsite\node_modules\underscore\amd\values.js133134420379040385 0
@@ -57,7 +57,7 @@
 81C:\myWebsite\myWebsite\node_modules\yargs\build\lib\typings\yargs-parser-types.js133134420362166799 0
 50C:\myWebsite\myWebsite\node_modules\uuid\README.md133134420369078352 0
 68C:\myWebsite\myWebsite\node_modules\proto3-json-serializer\README.md133134420363847175 0
-27C:\myWebsite\myWebsite\dist133153754667262955 1
+27C:\myWebsite\myWebsite\dist133153769591984764 1
 74C:\myWebsite\myWebsite\node_modules\terser\lib\utils\first_in_statement.js133134420364477322 0
 73C:\myWebsite\myWebsite\node_modules\.bin\node-gyp-build-optional-packages133134420383600595 0
 59C:\myWebsite\myWebsite\node_modules\protobufjs\src\parse.js133134420363517098 0
@@ -85,7 +85,7 @@
 42C:\myWebsite\myWebsite\node_modules\@panva133134420332760435 1
 79C:\myWebsite\myWebsite\node_modules\google-gax\build\src\fallbackServiceStub.js133134420364547340 0
 64C:\myWebsite\myWebsite\node_modules\underscore\modules\reduce.js133134420376998716 0
-33C:\myWebsite\myWebsite\about.html133153743887480345 0
+33C:\myWebsite\myWebsite\about.html133153769116560782 0
 63C:\myWebsite\myWebsite\node_modules\agent-base\src\promisify.ts133134420357905844 0
 59C:\myWebsite\myWebsite\node_modules\xmlcreate\lib\escape.js133134420349891387 0
 92C:\myWebsite\myWebsite\node_modules\google-gax\build\src\paginationCalls\pageDescriptor.d.ts133134420377228762 0
@@ -119,7 +119,7 @@
 57C:\myWebsite\myWebsite\node_modules\lodash\_baseReduce.js133134420370198610 0
 54C:\myWebsite\myWebsite\node_modules\lodash\parseInt.js133134420381230353 0
 41C:\myWebsite\myWebsite\node_modules\@grpc133134420333572696 1
-33C:\myWebsite\myWebsite\games.html133153752123309709 0
+33C:\myWebsite\myWebsite\games.html133153769141927282 0
 55C:\myWebsite\myWebsite\node_modules\lodash\isWeakMap.js133134420380369314 0
 59C:\myWebsite\myWebsite\node_modules\underscore\cjs\range.js133134420376958702 0
 62C:\myWebsite\myWebsite\node_modules\lodash\fp\wrapperLodash.js133134420383051552 0
@@ -145,7 +145,7 @@
 55C:\myWebsite\myWebsite\node_modules\css-tree\lib\syntax133134420369348409 1
 86C:\myWebsite\myWebsite\node_modules\@firebase\database\dist\node-esm\src\register.d.ts133134420375768438 0
 61C:\myWebsite\myWebsite\node_modules\lodash-es\date.default.js133134420376548613 0
-32C:\myWebsite\myWebsite\logs.html133153745667719653 0
+32C:\myWebsite\myWebsite\logs.html133153769162580001 0
 65C:\myWebsite\myWebsite\node_modules\@parcel\markdown-ansi\LICENSE133134420346831190 0
 71C:\myWebsite\myWebsite\node_modules\uuid\dist\commonjs-browser\index.js133134420349170528 0
 67C:\myWebsite\myWebsite\node_modules\protobufjs\src\reader_buffer.js133134420365977659 0
@@ -192,7 +192,7 @@
 77C:\myWebsite\myWebsite\node_modules\@parcel\reporter-dev-server\src\Server.js133134420351521743 0
 63C:\myWebsite\myWebsite\node_modules\jose\lib\jws\serializers.js133134420369448445 0
 79C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\features\ambient-light.js133134420363467091 0
-32C:\myWebsite\myWebsite\script.js133153750384061921 0
+32C:\myWebsite\myWebsite\script.js133153764530498243 0
 72C:\myWebsite\myWebsite\node_modules\@google-cloud\firestore\types\protos133134420374668186 1
 77C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\features\textencoder.js133134420381570428 0
 56C:\myWebsite\myWebsite\node_modules\p-limit\package.json133134420348991684 0
@@ -247,7 +247,7 @@
 58C:\myWebsite\myWebsite\node_modules\yaml\browser\scalar.js133134420364207263 0
 47C:\myWebsite\myWebsite\node_modules\tmp\LICENSE133134420346571133 0
 79C:\myWebsite\myWebsite\node_modules\text-decoding\build\implementations\big5.js133134420364347285 0
-35C:\myWebsite\myWebsite\package.json133134427180153575 0
+35C:\myWebsite\myWebsite\package.json133153767249711120 0
 54C:\myWebsite\myWebsite\node_modules\yaml\browser\types133134420365427538 1
 65C:\myWebsite\myWebsite\node_modules\@types\node\ts4.8\stream.d.ts133134420371718949 0
 59C:\myWebsite\myWebsite\node_modules\lodash-es\_arraySome.js133134420360616464 0
@@ -362,7 +362,7 @@
 76C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\features\matchmedia.js133134420379630526 0
 91C:\myWebsite\myWebsite\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\020-usage.md133134420367047899 0
 97C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\features\client-hints-dpr-width-viewport.js133134420370688711 0
-45C:\myWebsite\myWebsite\dist\Mass.c7d20a60.jpg133153754663302069 0
+45C:\myWebsite\myWebsite\dist\Mass.c7d20a60.jpg133153769586403517 0
 60C:\myWebsite\myWebsite\node_modules\terser\tools\terser.d.ts133134420368788294 0
 77C:\myWebsite\myWebsite\node_modules\google-auth-library\build\src\auth\iam.js133134420361086554 0
 67C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\regions\BG.js133134420367588022 0
@@ -2020,6 +2020,7 @@
 68C:\myWebsite\myWebsite\node_modules\google-auth-library\CHANGELOG.md133134420365397523 0
 66C:\myWebsite\myWebsite\node_modules\xmlcreate\lib\nodes\XmlDecl.js133134420359526207 0
 58C:\myWebsite\myWebsite\node_modules\jose\lib\help\epoch.js133134420364147254 0
+48C:\myWebsite\myWebsite\dist\itch-io.1639126e.png133153767526779544 0
 67C:\myWebsite\myWebsite\node_modules\xmlcreate\lib\nodes\XmlDtd.d.ts133134420365267502 0
 64C:\myWebsite\myWebsite\node_modules\lodash-es\_baseConformsTo.js133134420364337291 0
 74C:\myWebsite\myWebsite\node_modules\xmlcreate\lib\nodes\XmlDtdElement.d.ts133134420365467543 0
@@ -2684,7 +2685,7 @@
 62C:\myWebsite\myWebsite\node_modules\underscore\modules\rest.js133134420377088740 0
 67C:\myWebsite\myWebsite\node_modules\underscore\modules\isElement.js133134420375298333 0
 65C:\myWebsite\myWebsite\node_modules\underscore\modules\isError.js133134420375418362 0
-37C:\myWebsite\myWebsite\dist\logs.html133151640693049340 0
+37C:\myWebsite\myWebsite\dist\logs.html133153769591934747 0
 90C:\myWebsite\myWebsite\node_modules\readable-stream\lib\internal\streams\async_iterator.js133134420352421959 0
 60C:\myWebsite\myWebsite\node_modules\leaflet\src\layer\marker133134420370018563 1
 68C:\myWebsite\myWebsite\node_modules\underscore\modules\propertyOf.js133134420376898688 0
@@ -3486,7 +3487,7 @@
 59C:\myWebsite\myWebsite\node_modules\lodash\fp\spreadFrom.js133134420382147337 0
 76C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\features\css-shapes.js133134420375138295 0
 64C:\myWebsite\myWebsite\node_modules\ordered-binary\tests\test.js133134420351571759 0
-38C:\myWebsite\myWebsite\dist\index.html133153754667192938 0
+38C:\myWebsite\myWebsite\dist\index.html133153769591924750 0
 70C:\myWebsite\myWebsite\node_modules\caniuse-lite\dist\lib\supported.js133134420381330375 0
 76C:\myWebsite\myWebsite\node_modules\type-fest\source\conditional-except.d.ts133134420352732013 0
 49C:\myWebsite\myWebsite\node_modules\lodash\get.js133134420379490497 0
@@ -3692,6 +3693,7 @@
 54C:\myWebsite\myWebsite\node_modules\lodash\findLast.js133134420379080403 0
 71C:\myWebsite\myWebsite\node_modules\gcp-metadata\build\src\index.js.map133134420350331477 0
 53C:\myWebsite\myWebsite\node_modules\terser\lib\cli.js133134420361456644 0
+49C:\myWebsite\myWebsite\dist\MassBlur.a9be9d3e.jpg133153767526839555 0
 49C:\myWebsite\myWebsite\node_modules\retry\example133134420351171664 1
 54C:\myWebsite\myWebsite\node_modules\lodash\fp\isMap.js133134420380089236 0
 56C:\myWebsite\myWebsite\node_modules\lodash\fp\isError.js133134420380009230 0
@@ -4001,7 +4003,7 @@
 68C:\myWebsite\myWebsite\node_modules\rimraf\node_modules\glob\sync.js133134420350241457 0
 81C:\myWebsite\myWebsite\node_modules\rimraf\node_modules\brace-expansion\README.md133134420349881382 0
 52C:\myWebsite\myWebsite\node_modules\escalade\license133134420346711174 0
-48C:\myWebsite\myWebsite\dist\itch-io.6bad900a.png133153754665302522 0
+48C:\myWebsite\myWebsite\dist\itch-io.6bad900a.png133153769580022083 0
 55C:\myWebsite\myWebsite\node_modules\lodash\fp\escape.js133134420378358988 0
 67C:\myWebsite\myWebsite\node_modules\leaflet\src\layer\SVGOverlay.js133134420370758727 0
 57C:\myWebsite\myWebsite\node_modules\retry-request\license133134420346591142 0
@@ -5136,7 +5138,7 @@
 62C:\myWebsite\myWebsite\node_modules\caniuse-lite\dist\unpacker133134420380789415 1
 102C:\myWebsite\myWebsite\node_modules\@grpc\grpc-js\src\generated\grpc\channelz\v1\GetChannelResponse.ts133134420376388576 0
 61C:\myWebsite\myWebsite\node_modules\lodash.isinteger\index.js133134420349725015 0
-38C:\myWebsite\myWebsite\dist\about.html133151642014190083 0
+38C:\myWebsite\myWebsite\dist\about.html133153769591934747 0
 60C:\myWebsite\myWebsite\node_modules\lodash.isinteger\LICENSE133134420349011683 0
 60C:\myWebsite\myWebsite\node_modules\lodash-es\_equalByTag.js133134420374098061 0
 65C:\myWebsite\myWebsite\node_modules\lodash.isinteger\package.json133134420346651154 0
@@ -5198,7 +5200,7 @@
 57C:\myWebsite\myWebsite\node_modules\lodash-es\conforms.js133134420376458591 0
 54C:\myWebsite\myWebsite\node_modules\lodash\property.js133134420381390388 0
 59C:\myWebsite\myWebsite\node_modules\lodash-es\conformsTo.js133134420376468597 0
-49C:\myWebsite\myWebsite\dist\index.7a5155a5.js.map133153754667262955 0
+49C:\myWebsite\myWebsite\dist\index.7a5155a5.js.map133153769591974753 0
 56C:\myWebsite\myWebsite\node_modules\lodash-es\countBy.js133134420376498604 0
 54C:\myWebsite\myWebsite\node_modules\lodash\_hashGet.js133134420374558169 0
 55C:\myWebsite\myWebsite\node_modules\lodash-es\create.js133134420376508607 0
@@ -5474,13 +5476,13 @@
 56C:\myWebsite\myWebsite\node_modules\lodash-es\toLower.js133134420380199273 0
 63C:\myWebsite\myWebsite\node_modules\htmlparser2\lib\Parser.d.ts133134420360016319 0
 55C:\myWebsite\myWebsite\node_modules\lodash-es\toPath.js133134420380229273 0
-56C:\myWebsite\myWebsite\dist\PlaceholderLogo.358ba7ae.png133153754662061790 0
+56C:\myWebsite\myWebsite\dist\PlaceholderLogo.358ba7ae.png133153769580382159 0
 77C:\myWebsite\myWebsite\node_modules\@grpc\grpc-js\build\src\resolver-dns.d.ts133134420377178757 0
 62C:\myWebsite\myWebsite\node_modules\lodash-es\toSafeInteger.js133134420380249272 0
 57C:\myWebsite\myWebsite\node_modules\lodash-es\toString.js133134420380259275 0
 53C:\myWebsite\myWebsite\node_modules\lodash-es\trim.js133134420380279294 0
 56C:\myWebsite\myWebsite\node_modules\lodash-es\toUpper.js133134420380259275 0
-50C:\myWebsite\myWebsite\dist\index.0ea565e9.css.map133153754667252963 0
+50C:\myWebsite\myWebsite\dist\index.0ea565e9.css.map133153769591974753 0
 57C:\myWebsite\myWebsite\node_modules\lodash-es\truncate.js133134420380309294 0
 88C:\myWebsite\myWebsite\node_modules\firebase-admin\lib\firestore\firestore-internal.d.ts133134420374198082 0
 59C:\myWebsite\myWebsite\node_modules\google-gax\CHANGELOG.md133134420372369101 0
@@ -5604,7 +5606,7 @@
 66C:\myWebsite\myWebsite\node_modules\lodash-es\_baseIsTypedArray.js133134420368948320 0
 62C:\myWebsite\myWebsite\node_modules\lodash-es\_baseIteratee.js133134420368998336 0
 58C:\myWebsite\myWebsite\node_modules\lodash-es\_baseKeys.js133134420369058354 0
-38C:\myWebsite\myWebsite\dist\games.html133151640693049340 0
+38C:\myWebsite\myWebsite\dist\games.html133153769591934747 0
 76C:\myWebsite\myWebsite\node_modules\@parcel\node-resolver-core\lib\_empty.js133134420347661375 0
 60C:\myWebsite\myWebsite\node_modules\lodash-es\_baseKeysIn.js133134420369108367 0
 60C:\myWebsite\myWebsite\node_modules\lodash-es\_baseLodash.js133134420369168367 0
@@ -8640,6 +8642,7 @@
 67C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\regions\EE.js133134420376158529 0
 67C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\regions\ER.js133134420376258544 0
 67C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\regions\ES.js133134420376268544 0
+45C:\myWebsite\myWebsite\dist\Mass.6f5a2a79.jpg133153767527059594 0
 87C:\myWebsite\myWebsite\node_modules\@grpc\grpc-js\build\src\control-plane-status.js.map133134420372119040 0
 67C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\regions\FI.js133134420376528606 0
 67C:\myWebsite\myWebsite\node_modules\caniuse-lite\data\regions\FJ.js133134420376608620 0
@@ -9405,7 +9408,7 @@
 65C:\myWebsite\myWebsite\node_modules\@protobufjs\inquire\README.md133134420349110517 0
 61C:\myWebsite\myWebsite\node_modules\@protobufjs\inquire\tests133134420351961840 1
 66C:\myWebsite\myWebsite\node_modules\@protobufjs\inquire\tests\data133134420357495764 1
-40C:\myWebsite\myWebsite\dist\contact.html133151640693059345 0
+40C:\myWebsite\myWebsite\dist\contact.html133153769591934747 0
 70C:\myWebsite\myWebsite\node_modules\@protobufjs\inquire\tests\index.js133134420351741797 0
 90C:\myWebsite\myWebsite\node_modules\@grpc\grpc-js\build\src\max-message-size-filter.js.map133134420374258097 0
 75C:\myWebsite\myWebsite\node_modules\@protobufjs\inquire\tests\data\array.js133134420352251907 0
@@ -10013,7 +10016,7 @@
 82C:\myWebsite\myWebsite\node_modules\@parcel\fs-search\fs-search.linux-x64-gnu.node133134420365007439 0
 83C:\myWebsite\myWebsite\node_modules\@parcel\fs-search\fs-search.linux-x64-musl.node133134420365737599 0
 83C:\myWebsite\myWebsite\node_modules\@parcel\fs-search\fs-search.win32-x64-msvc.node133134420366267727 0
-53C:\myWebsite\myWebsite\.firebase\hosting.ZGlzdA.cache133151642154730591 0
+53C:\myWebsite\myWebsite\.firebase\hosting.ZGlzdA.cache133153757138672856 0
 57C:\myWebsite\myWebsite\node_modules\@parcel\fs\index.d.ts133134420360576440 0
 59C:\myWebsite\myWebsite\node_modules\@parcel\fs\package.json133134420359286159 0
 58C:\myWebsite\myWebsite\node_modules\@parcel\fs\src\find.js133134420349851366 0
@@ -10183,7 +10186,7 @@
 70C:\myWebsite\myWebsite\node_modules\@parcel\core\lib\public\Symbols.js133134420371979002 0
 69C:\myWebsite\myWebsite\node_modules\@parcel\core\lib\public\Target.js133134420372029018 0
 66C:\myWebsite\myWebsite\node_modules\@parcel\config-default\LICENSE133134420347721393 0
-45C:\myWebsite\myWebsite\dist\index.7a5155a5.js133153754667212956 0
+45C:\myWebsite\myWebsite\dist\index.7a5155a5.js133153769591934747 0
 63C:\myWebsite\myWebsite\node_modules\@grpc\grpc-js\src\filter.ts133134420376308560 0
 71C:\myWebsite\myWebsite\node_modules\@parcel\config-default\package.json133134420350741569 0
 72C:\myWebsite\myWebsite\node_modules\@parcel\config-default\test\.babelrc133134420346941220 0
@@ -11163,21 +11166,26 @@
 41C:\myWebsite\myWebsite\images\youtube.png133133924980744182 0
 36C:\myWebsite\myWebsite\dist\404.html133133924980587136 0
 45C:\myWebsite\myWebsite\dist\contact-info.html133140729596383084 0
-57C:\myWebsite\myWebsite\dist\DevLog11-27-2022.791d6a0f.jpg133151638632181884 0
+57C:\myWebsite\myWebsite\dist\DevLog11-27-2022.791d6a0f.jpg133153769580022083 0
 46C:\myWebsite\myWebsite\dist\index.05d578a4.css133140729596383084 0
 50C:\myWebsite\myWebsite\dist\index.05d578a4.css.map133140729596423099 0
 49C:\myWebsite\myWebsite\dist\index.06bc2ed7.js.map133140729596423099 0
 50C:\myWebsite\myWebsite\dist\index.0ce0bd7a.css.map133134412904072347 0
-46C:\myWebsite\myWebsite\dist\index.0ea565e9.css133153754667212956 0
+46C:\myWebsite\myWebsite\dist\index.0ea565e9.css133153769591934747 0
 46C:\myWebsite\myWebsite\dist\index.13010cc1.css133151638640833825 0
 50C:\myWebsite\myWebsite\dist\index.13010cc1.css.map133151638640873828 0
 49C:\myWebsite\myWebsite\dist\index.177350eb.js.map133151633373237247 0
+46C:\myWebsite\myWebsite\dist\index.3a01df49.css133153767526879564 0
+50C:\myWebsite\myWebsite\dist\index.3a01df49.css.map133153767526899558 0
 46C:\myWebsite\myWebsite\dist\index.4b0fa2a2.css133151640693049340 0
 49C:\myWebsite\myWebsite\dist\index.7a39a244.js.map133151638640873828 0
+45C:\myWebsite\myWebsite\dist\index.8cfc62b9.js133153767527119618 0
+49C:\myWebsite\myWebsite\dist\index.8cfc62b9.js.map133153767527139621 0
 46C:\myWebsite\myWebsite\dist\index.b14b08ef.css133134426395053063 0
 50C:\myWebsite\myWebsite\dist\index.b14b08ef.css.map133134426395093070 0
 46C:\myWebsite\myWebsite\dist\index.be1217ad.css133151633373187233 0
 50C:\myWebsite\myWebsite\dist\instagram.1a00a9a9.png133151638632201890 0
-49C:\myWebsite\myWebsite\dist\MassBlur.d2432c5e.jpg133153754665302522 0
+49C:\myWebsite\myWebsite\dist\MassBlur.d2432c5e.jpg133153769586383505 0
+56C:\myWebsite\myWebsite\dist\PlaceholderLogo.f5266ea7.png133153767526819537 0
 65C:\myWebsite\myWebsite\dist\rumble-full-logo-v4-dark.2f537dee.png133151638633492189 0
 40C:\myWebsite\myWebsite\.github\workflows133133927955153630 1

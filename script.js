@@ -1,6 +1,6 @@
-// if (module.hot) {
-//     module.hot.accept();
-// }
+if (module.hot) {
+    module.hot.accept();
+}
 
 
 let menuOpen = false;

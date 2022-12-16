@@ -177,6 +177,9 @@ button:hover {
     line-height: 20%;
 }
 
+.card-text {
+    margin-left: 1.5rem;
+}
 
 
 
@@ -199,18 +202,20 @@ button:hover {
 
 .text-container {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 1fr 1fr;
     font-size: large;
     margin-left: 2rem;
 }
 
 .post {
+    grid-column: 1;
     background-color: rgba(0, 0, 0, 0.276);
     padding: .5rem;
     border-radius: .8rem;
 }
 
 .post-image {
+    grid-column: 2;
     margin: auto;
 }
 
@@ -218,11 +223,15 @@ button:hover {
     height: auto;
     width: 700px;
     border-radius: .8rem;
+    margin: auto 1rem;
 }
 
 li {
     line-height: 2rem
 }
+
+
+
 
 
 
@@ -288,6 +297,17 @@ form {
         padding-left: 4rem;
     }
 
+
+
+
+    .card-header {
+        font-size: medium;
+    }
+
+    .card-message {
+        font-size: small;
+    }
+
     .card-container {
         grid-template-columns: auto;
         margin: 0 2vh;
@@ -315,5 +335,40 @@ form {
 
     .buttonBox#mobile>button {
         margin-bottom: 1rem;
+    }
+
+
+    .aboutMeContainer {
+        grid-template-columns: 5% 1fr 5%;
+    }
+
+    h1 {
+        line-height: 2.5rem;
+    }
+
+
+    .text-container {
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    .post {
+        grid-column: 2;
+    }
+
+    .post-image {
+        margin-top: 1rem;
+        grid-column: 2;
+    }
+
+    .form {
+        margin: 0 auto;
+    }
+
+    #largeTextarea {
+        display: none;
+    }
+
+    #smallTextarea {
+        display: block;
     }
 }

@@ -1,6 +1,6 @@
-if (module.hot) {
-    module.hot.accept();
-}
+// if (module.hot) {
+//     module.hot.accept();
+// }
 
 
 let menuOpen = false;
@@ -44,6 +44,7 @@ const navigationHandler = function (id) {
         default:
             console.log('nav handler broke')
     }
+
     console.log(id);
 }
 
@@ -92,6 +93,7 @@ const navLoader = function () {
 
 const resize = function () {
     console.log(body.offsetWidth);
+    document.querySelector(".buttonContainer").style = "display: none;"
     let fragment = document.createDocumentFragment();
     if (body.offsetWidth > 1200) {
         for (let i = 0; i < 5; i++) {

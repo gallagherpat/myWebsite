@@ -1,7 +1,7 @@
 // if (module.hot) {
 //     module.hot.accept();
 // }
-
+"use strict";
 
 let menuOpen = false;
 
@@ -10,6 +10,8 @@ let body = document.querySelector('body');
 let hamburger = document.querySelector('.svg-icon');
 
 let navBtns = document.querySelector('.buttonContainer');
+
+let games;
 
 const openMenu = function () {
     if (menuOpen == false) {
@@ -108,11 +110,28 @@ const resize = function () {
     }
 }
 
+let requestOptions = {
+    method: 'GET',
+    mode: 'cors',
+    redirect: 'follow',
+    headers: {
+        'apiKey': '12345'
+    }
+};
+
+fetch("http://localhost:3000/hello", requestOptions)
+    .then(response => response.text())
+    .then((result) => {
+        games = JSON.parse(result);
+        console.log(games.games[1]);
+    })
+    .catch(error => console.log('error', error));
 
 hamburger.addEventListener('click', openMenu);
 body.addEventListener('load', navLoader());
 resize();
 window.addEventListener('resize', resize);
+
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
